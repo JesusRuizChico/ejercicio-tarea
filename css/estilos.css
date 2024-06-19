@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+@media (min-width:1146px) and (max-width:2000px){
+    .contenedor2{
+        display: none;
+    
+       }
+       
+}
+@media (min-width:300px) and (max-width:1146px){
+   
+   .contenedor{
+    display: none;
+
+   }
+}
+table{
+    width: 80%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+    justify-content: space-evenly;
+    align-items: center;
+}
+th{
+    background-color: pink;
+    color: white;
+    text-align: center;
+}
+td{
+    padding: 5px;
+    text-align: center;
+    border: 3px solid pink;
+}
+tr:nth-child(odd){
+    background-color: plum;
+}
+.contenedor{
+    
+    justify-content: center;
+    align-items: center;
+}
+.descripcion{
+    width: 40%;
+}
+.contenedor2 div{
+    
+    
+    align-content: center;
+}
+.caja1{
+    border:2px solid black;
+    height: 400px;
+    width: 400px; 
+}
+.parteinicial{
+    border:2px solid plum;
+    height: 100px;
+    width: 400px;   
+    background-color: pink;
+}
+.parteabajo{
+    border:2px solid pink;
+    height: 300px;
+    width: 400px;  
+    background-color: plum;
+}
+.caja2{
+    background-color: coral;
+    margin-top: 20px;
+    height: 400px;
+    width: 400px; 
+}
+.caja3{
+    margin-top: 20px;
+    background-color: darkgray;
+    height: 400px;
+    width: 400px; 
+}
+.contenedor2{
+   
+    height: 300px;
+    width: 100%;
+
+    /*justify-content: center; /*Horizontal*/
+    /*align-items: center; /*Vertical*/
+    /*justify-content: space-around; /*separa los elementos*/
+    /*justify-content: space-between; /*separa los elementos pegados en la orrilla*/
+    justify-content: space-evenly; /*separa pero todo igual*/
+    align-items: center; /*Vertical*/
+    /*align-items: stretch;*/
+    text-align: center;
+    
+}
